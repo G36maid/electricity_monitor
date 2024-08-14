@@ -1,0 +1,5 @@
+Latitude,Longitude,Building_ID,Datetime,Category,Weekday_Weekend,Consumption
+25.158234,121.502811,Building_10,2024-08-15 06:47:31,residential,Weekday,1.86
+25.158234,121.502811,Building_10,2024-08-15 06:47:36,residential,Weekday,1.86
+25.158234,121.502811,Building_10,2024-08-15 06:47:41,residential,Weekday,1.86
+25.158234,121.502811,Building_10,2024-08-15 06:47:46,residential,Weekday,1.86
