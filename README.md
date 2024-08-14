@@ -95,7 +95,7 @@ This project includes a Linux-based electricity monitoring system using MQTT to 
 
 ---
 
-This `README.md` provides a clear overview of setting up and running your electricity monitoring system without including the actual code.
+This `README.md` provides a clear overv of setting up and running your electricity monitoring system without including the actual code.
 
 ### Potential Data Sources
 
