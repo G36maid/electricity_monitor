@@ -95,7 +95,7 @@ This project includes a Linux-based electricity monitoring system using MQTT to 
 
 ---
 
-This `README.md` provides a clear overv of setting up and running your electricity monitoring system without including the actual code.
+This `README.md` provides a clear overview of setting up and running your electricity monitoring system without including the actual code.
 
 ### Potential Data Sources
 
@@ -104,8 +104,8 @@ This `README.md` provides a clear overv of setting up and running your electrici
   - Electricity supply data.
 - **Additional Datasets:**
   - [Residential Power Usage 3 Years Data - Timeseries](https://www.kaggle.com/datasets/srinuti/residential-power-usage-3years-data-timeseries)
-  - [Indian Cities Electricity Consumption 2017-19]{link}
-  - [Energy Consumption of the Netherlands]{link}
+  - [Indian Cities Electricity Consumption 2017-19](https://www.kaggle.com/datasets/aniketmahajan1104/indian-cities-electricity-consumption-2017-19/data)
+  - [Energy Consumption of the Netherlands](https://www.kaggle.com/datasets/lucabasa/dutch-energy)
 
 ---
 
