@@ -24,6 +24,79 @@
   - Use algorithms like max flow to visualize the electrical load in each city.
   - Combine with weather data to predict how electricity use varies with weather and season.
 
+## usage
+
+This project includes a Linux-based electricity monitoring system using MQTT to send and receive data. It consists of two main components:
+
+1. **Linux Client**: Monitors power consumption and sends data to the server.
+2. **Server**: Receives data from clients and logs it into a CSV file.
+
+## Prerequisites
+
+- **Python 3**: Ensure Python 3 is installed.
+- **MQTT Broker**: An MQTT broker must be running and accessible. (e.g., `140.122.185.98` on port `1883`)
+- **Dependencies**: Install the necessary Python library and tools:
+  - `paho-mqtt`
+  - `powerstat` (for Linux clients)
+
+## Installation
+
+### For Linux Client
+
+1. **Install Python Dependencies**:
+   ```bash
+   pip install paho-mqtt
+   ```
+
+2. **Install `powerstat`**:
+   ```bash
+   sudo apt-get install powerstat
+   ```
+
+3. **Client Configuration**:
+   - The client script will prompt for `Latitude`, `Longitude`, `Building ID`, and `Category`.
+   - Make sure to modify the MQTT credentials and broker address as needed.
+
+### For Server
+
+1. **Install Python Dependencies**:
+   ```bash
+   pip install paho-mqtt
+   ```
+
+2. **Server Configuration**:
+   - The server script listens for incoming data and logs it into `data/electricity_consumption.csv`.
+   - Ensure the server script connects to the correct MQTT broker and topic.
+
+## Running the System
+
+### Start the Server
+
+1. Open a terminal and navigate to the directory with the server script.
+2. Run the server script:
+   ```bash
+   python server.py
+   ```
+
+### Start the Client
+
+1. Open a terminal and navigate to the directory with the client script.
+2. Run the client script:
+   ```bash
+   python linux_client.py
+   ```
+3. Enter the required information when prompted.
+
+## Notes
+
+- Make sure the MQTT broker is accessible and properly configured.
+- Adjust the MQTT broker details and credentials in the scripts as needed.
+- The `powerstat` tool is Linux-specific; alternative methods are needed for macOS or Windows.
+
+---
+
+This `README.md` provides a clear overv of setting up and running your electricity monitoring system without including the actual code.
+
 ### Potential Data Sources
 
 - **Taiwan Power Open Data:**
