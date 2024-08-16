@@ -4,7 +4,11 @@
 **Repo:** [https://github.com/G36maid/electricity_monitor](https://github.com/G36maid/electricity_monitor)
 
 ---
+## For Teachers
 
+The slides are included in this repository as well as how the work was divided
+
+---
 ## Team Members
 
 | Name                | English Name            | University | Major                     | Year |
