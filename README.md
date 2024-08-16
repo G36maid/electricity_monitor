@@ -10,7 +10,7 @@
 | Name                | English Name            | University | Major                     | Year |
 |---------------------|-------------------------|------------|---------------------------|------|
 | 羅願群               | Jethro                  | NTNU       | Computer Science          | 1    |
-| 鍾詠傑               | Jie Chung               |            | Mechatronic Engineering   | 2    |
+| 鍾詠傑               | Jie Chung               | NTNU          | Mechatronic Engineering   | 2    |
 | 名嘉山 栞            | Shiori Nakayama         | KU         | ISI                       | 4    |
 | ローイ ベンジャミン   | Benjamin Joshua Lowy    |  KU          | ISI                       | 2    |
 
